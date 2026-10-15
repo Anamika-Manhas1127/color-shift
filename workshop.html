@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Shift</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="color-stage">
+        <div class="topline">
+            <span class="brand-mark" aria-hidden="true">C</span>
+            <span>COLOR SHIFT</span>
+            <span class="edition">A tiny color experiment</span>
+        </div>
+
+        <section class="color-panel" aria-labelledby="page-title">
+            <p class="eyebrow">YOUR SCREEN, REIMAGINED</p>
+            <h1 id="page-title">A new shade<br>every time.</h1>
+            <p class="description">Tap below and let chance set the mood.</p>
+
+            <div class="color-readout" aria-live="polite" aria-atomic="true">
+                <span class="readout-label">CURRENT COLOR</span>
+                <span class="color-code" id="color-code">#F4F0E8</span>
+            </div>
+
+            <button class="change-button" id="change-color" type="button">
+                <span class="button-icon" aria-hidden="true">&#8635;</span>
+                Change color
+            </button>
+        </section>
+
+        <footer class="bottomline">
+            <span>NO TWO CLICKS ALIKE</span>
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>MADE FOR A CHANGE OF SCENE</span>
+        </footer>
+    </main>
+</body>
+</html>
